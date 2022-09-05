@@ -1,0 +1,62 @@
+@import "theme.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: var(--ff-monteserrat);
+}
+.nav {
+  margin-top: 0.5rem;
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  width: 33vw;
+  background-color: var(--gri-8);
+  box-shadow: var(--açık-gölge);
+}
+.icon img {
+  width: 40px;
+  height: 40px;
+}
+.menu {
+  width: 34vw;
+  background-color: var(--mavi-10);
+  box-shadow: var(--koyu-golge);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.menu .list {
+  color: var(--siyah);
+
+  padding: 16px;
+  transition: color 1s, background-color 1s;
+}
+.menu .list:hover {
+  background-color: var(--mavi-6);
+  border-radius: 10px;
+  color: var(--beyaz);
+}
+.social {
+  width: 33vw;
+  display: flex;
+  justify-content: flex-end;
+  background-color: var(--mavi-7);
+  box-shadow: var(--acik-golge);
+}
+.social i {
+  color: var(--siyah);
+  font-size: 40px;
+  transition: font-size 0.5s;
+}
+.social i:hover {
+  font-size: 50px;
+}
